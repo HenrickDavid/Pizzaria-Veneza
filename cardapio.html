@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/cabecalho.css">
+    <link rel="stylesheet" href="./CSS/rodape.css">
+    <link rel="stylesheet" href="./CSS/cardapio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100&display=swap"
+        rel="stylesheet">
+    <title>Pizzaria Veneza</title>
+</head>
+<header>
+    <section class="section-head">
+        <img src="./images/logo.png" alt="Logo da Pizzaria" class="logo-head">
+        <div class="mobile-menu" onclick="openNav()">
+        <div class="line-1"></div>
+        <div class="line-2"></div>
+        <div class="line-3"></div>
+    </div>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        
+        <div class="overlay-content">
+                 <a href="./index.html" class="a-item-over"> Home </a>
+                 <a href="./cardapio.html" class="a-item-over"> Cardápio </a>
+                 <a href="./promocoes.html" class="a-item-over"> Promoçôes </a>
+                 <a href="./atendimento.html" class="a-item-over"> Local e Horários </a>
+               
+         </div>
+    </div>
+    
+
+    <div class="div-lista">
+        <ul class="lista-head">
+            <li class="item-head"><a href="./index.html" class="a-item"> Home </a></li>
+            <li class="item-head"><a href="./cardapio.html" class="a-item"> Cardápio </a></li>
+            <li class="item-head"><a href="./promocoes.html" class="a-item"> Promoçôes </a></li>
+            <li class="item-head"><a href="./atendimento.html" class="a-item"> Local e Horários </a></li>
+        </ul>
+         <div>
+           
+    </section>
+</header>
+<body>
+    <section class="principal">
+        <div>
+            <img src="./images/ivan-torres-MQUqbmszGGM-unsplash 1.png" alt="foto de pizza no forno"
+                class="background-veneza">
+            <H1 class="cardapio-item">Cardápio</H1>
+            <h1 class="pizza-item">Pizzas</h1>
+        </div>
+        <div class="pizzas-cardapio-geral">
+            <div class="pizzas-cardapio">
+                <h2 class="titulo-cardapio">ALHO PORÓ</h2>
+                <p class="descricao-cardapio">Mussarela de búfala ou cream cheese, alho poró refogado e tomates cereja
+                </p>
+                <p class="preco">r$ 35</p>
+            </div>
+            <div class="pizzas-cardapio">
+                <h2 class="titulo-cardapio">abobrinha</h2>
+                <p class="descricao-cardapio">Mussarela, abobrinha no azeite, parmesão e alho frito</p>
+                <p class="preco">r$ 40</p>
+            </div>
+            <div class="pizzas-cardapio">
+                <h2 class="titulo-cardapio">à moda</h2>
+                <p class="descricao-cardapio">Frango, palmito, ervilhas, cebolas e mussarela</p>
+                <p class="preco">r$ 35</p>
+
+            </div>
+            <div class="pizzas-cardapio">
+                <h2 class="titulo-cardapio">alcachofra</h2>
+                <p class="descricao-cardapio">Corações de alcachofra, manjericão, tomates cereja e mussarela</p>
+                <p class="preco">r$ 35 </p>
+            </div>
+            <div class="pizzas-cardapio">
+                <h2 class="titulo-cardapio">à brasileira</h2>
+                <p class="descricao-cardapio">Atum, ovos, bacon, ervilhas e mussarela</p>
+                <p class="preco">r$ 40</p>
+            </div>
+            <div class="pizzas-cardapio">
+                <h2 class="titulo-cardapio">aliche</h2>
+                <p class="descricao-cardapio">Aliche importado, rodelas de tomate e parmesão</p>
+                <p class="preco">r$ 40</p>
+            </div>
+        </div>
+        <h1 class="pizza-item">Pizzas Doces </h1>
+        <div class="pizzas-cardapio-geral">
+            <div class="pizzas-cardapio">
+                <h2 class="titulo-cardapio">banana  </h2>
+                    <p class="descricao-cardapio">Bananas flambadas no conhaque, canela e açúcar cristal</p>
+                    <p class="preco">r$ 40</p>
+                
+            </div>
+            <div class="pizzas-cardapio">
+                <h2 class="titulo-cardapio">nutella com cerejas</h2>
+                    <p class="descricao-cardapio">Creme de avelã Nutella com cerejas (consulte a disponibilidade)</p>
+                    <p class="preco">r$ 50</p>
+                
+            </div>
+            <div class="pizzas-cardapio">
+                <h2 class="titulo-cardapio">bianco com morangos</h2>
+                    <p class="descricao-cardapio">Chocolate branco e morangos (consulte a disponibilidade</p>
+                    <p class="preco">r$ 45</p>
+                
+            </div>
+            <div class="pizzas-cardapio">
+                <h2 class="titulo-cardapio">nutella com morangos</h2>
+                    <p class="descricao-cardapio">Creme de avelã Nutella com morangos (consulte a disponibilidade)</p>
+                    <p class="preco">r$ 50</p>
+                
+            </div>
+        </div>
+    </section>
+    <script src="./JS/JS/mobile-navbar.js"></script>
+</body>
+<footer>
+    <div class="d-contato">
+        <p class="contato">(11) 5589 - 3642
+            (11) 5589 - 0797
+            (11) 5583 - 3929</p>
+    </div>
+</footer>
+
+</html>

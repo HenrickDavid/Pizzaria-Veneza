@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/cabecalho.css">
+    <link rel="stylesheet" href="./CSS/atendimento.css">
+    <link rel="stylesheet" href="./CSS/rodape.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100&display=swap"
+        rel="stylesheet">
+    <title>Pizzaria Veneza</title>
+</head>
+<header>
+    <section class="section-head">
+        <img src="./images/logo.png" alt="Logo da Pizzaria" class="logo-head">
+        <div class="mobile-menu" onclick="openNav()">
+        <div class="line-1"></div>
+        <div class="line-2"></div>
+        <div class="line-3"></div>
+    </div>
+    <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        
+        <div class="overlay-content">
+                 <a href="./index.html" class="a-item-over"> Home </a>
+                 <a href="./cardapio.html" class="a-item-over"> Cardápio </a>
+                 <a href="./promocoes.html" class="a-item-over"> Promoçôes </a>
+                 <a href="./atendimento.html" class="a-item-over"> Local e Horários </a>
+               
+         </div>
+    </div>
+    
+
+    <div class="div-lista">
+        <ul class="lista-head">
+            <li class="item-head"><a href="./index.html" class="a-item"> Home </a></li>
+            <li class="item-head"><a href="./cardapio.html" class="a-item"> Cardápio </a></li>
+            <li class="item-head"><a href="./promocoes.html" class="a-item"> Promoçôes </a></li>
+            <li class="item-head"><a href="./atendimento.html" class="a-item"> Local e Horários </a></li>
+        </ul>
+         <div>
+           
+    </section>
+</header>
+<body>
+    <img src="./images/ivan-torres-MQUqbmszGGM-unsplash 1.png" alt="foto de pizza no forno"
+    class="background-veneza">
+    <h1 class="local-horario-titulo">Local e Horário</h1>
+        <h2 class="titulo-secundario">vem pegar uma fatia!</h2>
+        <div class="end-hora">
+            <div class="endereco-hora1">
+                <h1 class="titulo-end">Endereço</h1>
+                <p class="item-end-hora">Avenida Ceci, 1416
+                    Planalto Paulista
+                    São Paulo</p>
+            </div>
+            <div class="endereco-hora2">
+                <h1 class="titulo-hora">Horários</h1>
+                <ul class="item-end-hora">
+                <li>Terça - quinta: 18h às 23h</li>
+                <li>Sexta e sábado: 18h às 23h30</li>
+                <li>Domingo: 18h às 23h</li>
+                </ul>
+            </div>
+        </div>
+        <div class="btn">
+        <a href="https://www.google.com/maps/place/Av.+Ceci,+1416+-+Planalto+Paulista,+S%C3%A3o+Paulo+-+SP,+04065-002/@-23.6216754,-46.6516358,17z/data=!3m1!4b1!4m5!3m4!1s0x94ce5a5d1738dbd7:0x98ef2408de1309c8!8m2!3d-23.6216754!4d-46.6494471"
+            class="btn-como-chegar">Como Chegar</a>
+        </div>
+            <script src="./JS/JS/mobile-navbar.js"></script>
+</body>
+<footer>
+    <div class="d-contato">
+        <p class="contato">(11) 5589 - 3642
+            (11) 5589 - 0797
+            (11) 5583 - 3929</p>
+    </div>
+</footer>
+</html>

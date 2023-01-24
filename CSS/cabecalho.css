@@ -1,0 +1,137 @@
+header {
+    background-color: #FFFFFF;
+}
+
+.section-head {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+}
+
+.lista-head {
+    display: inline-block;
+    align-items: flex-end;
+    margin-top: 3rem;
+    margin-left: 0 rem;
+
+}
+
+.logo-head {
+    margin-top: 2rem;
+}
+
+.item-head {
+    display: inline-block;
+    margin-right: 3.5rem;
+    cursor: pointer;
+    margin-bottom: 2rem;
+}
+
+.a-item {
+    color: var(--font-titulo-principal);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+
+.a-item:hover {
+    color: rgb(137, 136, 136);
+    border:  1px solid black;
+    padding: 1rem;
+}
+.a-item-over {
+    color: var(--font-titulo-principal);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;  
+}
+
+.a-item-over:hover {
+    color: rgb(137, 136, 136);
+    border: 1px solid  rgb(137, 136, 136);
+    padding: 1rem;
+}
+
+
+.mobile-menu {
+    display: none;
+    cursor: pointer;
+    margin-left: auto;
+    background-color: rgb(218, 213, 213);
+}
+
+.mobile-menu div {
+    width: 28px;
+    height: 2px;
+    background: black;
+    margin: 8px;
+}
+
+.closebtn {
+    display: none;
+    cursor: pointer;
+    margin-left: auto;
+    text-decoration: none;
+    color: rgb(137, 136, 136);
+    font-size: 65px;
+}
+
+.overlay {
+    width: 0;
+    height: 100%;
+    background-color: black;
+    z-index: 9;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-x: hidden;
+    transition: all 0.5s;
+}
+
+.overlay-content {
+    display: none;
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    color: rgb(218, 213, 213);
+}
+
+@media screen and (max-width: 950px) {
+    .lista-head {
+        display: none;
+    }
+
+    .mobile-menu {
+        display: block;
+    }
+
+    .closebtn {
+        display: block;
+    }
+
+    .overlay-content {
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        justify-content: center;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin-top: 0px;
+        color: rgb(218, 213, 213);
+    }
+
+    .a-item-over{
+        margin: 10px;
+    }
+
+}
+

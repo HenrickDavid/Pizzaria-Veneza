@@ -1,0 +1,50 @@
+.background-veneza {
+    width: 100%;
+}
+
+.titulo-promocao {
+    background-color: #FFFFFF;
+    color: rgba(46, 46, 46, 1);
+    font-family: 'Bebas Neue';
+    font-size: 84px;
+    text-align: center;
+}
+
+.dias-promocao {
+    color: rgba(46, 46, 46, 1);
+    font-family: 'Bebas Neue';
+    font-size: 64px;
+    text-align: center;
+}
+.primeira-descricao{
+    color: rgba(46, 46, 46, 1);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    font-weight: 900;
+    padding: 1rem;
+    text-align: center;
+}
+.segunda-descricao{
+    color: rgba(46, 46, 46, 1);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 900;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+@media screen and (max-width: 710px) {
+    .titulo-promocao{
+        font-size: 2.5em;
+    }   
+    .dias-promocao{
+        font-size: 3em;
+    }
+    .primeira-descricao{
+        display: flex;
+        justify-content: center;
+        font-size: 1em;        
+    }
+    .segunda-descricao{
+        font-size: 1em;
+    }
+}
