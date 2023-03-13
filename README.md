@@ -1,2 +1,2 @@
-# Pizzaria-Veneza
-Projeto pessoal, feito para divulgação de um pizzaria.
+# :pizza: Pizzaria-Veneza
+Neste projeto eu estava um pouco sem criatividade, mas queria praticar meus conhecimentos em HTML, CSS e JavaScript. Então me surgiu a idéia de criar este site onde eu encontrei o design no Figma.
